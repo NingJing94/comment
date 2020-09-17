@@ -14,7 +14,7 @@ class CommentList extends Component {
 
   handleDeleteComment (index) {
     if (this.props.onDeleteComment) {
-      this.props.onDeleteComment(index)
+      this.props.onDeleteComment(index);
     }
   }
 
